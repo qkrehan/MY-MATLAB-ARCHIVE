@@ -23,5 +23,6 @@ d2ydt2=ay.
 syms y(t) a
 eqn = diff(y,t,2) == a*y;
 ySol1(t) = dsolve(eqn);
-            
+
+
     
