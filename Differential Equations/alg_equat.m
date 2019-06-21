@@ -38,4 +38,6 @@ eqns01 = input('Input the first equation :')
 eqns02 = input('Input the Second equation :')
 eqns = [eqns01, eqns02];
 [u,v]=solve(eqns)
+%%
+
 
