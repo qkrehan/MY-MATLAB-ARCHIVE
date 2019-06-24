@@ -40,4 +40,7 @@ eqns = [eqns01, eqns02];
 [u,v]=solve(eqns)
 %%
 
-
+y = sym(1) 
+class(y)
+%%
+x = sym(' ')
