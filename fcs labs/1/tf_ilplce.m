@@ -22,7 +22,11 @@ isvarname('double')
 who
 %%
 isvarname('double')
-
+%% 
+g = tf([ 1 2 3],[4 5 6])
+[a b] = tfdata(g)
+celldisp(a)
+celldisp(b)
 
 
 
