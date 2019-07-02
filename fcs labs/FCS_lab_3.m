@@ -1,9 +1,4 @@
-%{  
-    FeedBack Control System LAB 3
-   Created By: " Muhammad Hamza Zia "
-   Section: E    Roll no.: EE-16196
-   Lab Teacher: " Sir Muhammad Arshad "
-%}
+
 clear all;close all;clc;
 for VAR= 0.001:0.5:2.001
 X0=[0;0;0;0];	% (Initial xb, Vb, xa, Va)

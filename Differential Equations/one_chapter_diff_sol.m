@@ -5,9 +5,10 @@
 
 % solving dy/dt = a*y 
 
+
 syms a y(t)
-eqn = diff(y,t) == a*y;
-ySol0(t) = dsolve(eqn);
+eqn01 = diff(y,t) == a*y;
+ySol0(t) = dsolve(eqn01);
 
 
 %{
@@ -21,7 +22,7 @@ d2ydt2=ay.
 %}
 
 syms y(t) a
-eqn = diff(y,t,2) == a*y;
-ySol1(t) = dsolve(eqn);
+eqn02 = diff(y,t,2) == a*y;
+ySol1(t) = dsolve(eqn02);
             
     

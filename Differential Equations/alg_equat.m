@@ -24,9 +24,10 @@ s = solve(eqns, [u v])
 
 %% 
 
-syms x
-eqns = [3*x+2, 3*x+1];
-solve(eqns, x)
+syms u v
+eqns = [2*u^2 + v^2 == 0, u - v == 1];
+vars = [v u];
+[solv, solu] = solve(eqns, vars)
 
 %% 
 

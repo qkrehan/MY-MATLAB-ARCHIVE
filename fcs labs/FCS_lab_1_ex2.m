@@ -1,9 +1,3 @@
-%{  
-    FeedBack Control System LAB 1
-   Created By: " Muhammad Hamza Zia "
-   Section: E    Roll no.: EE-16196
-   Lab Teacher: " Sir Muhammad Arshad "
-%}
 clear all
 clc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Part A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
